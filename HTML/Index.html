@@ -1,13 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Corona Meter</title>
-    <link rel="stylesheet" href="CSS/Style.css">
+
+   
+    <!-- ----------------------fav icon ------------------- -->
+
+    <link rel="shortcut icon" href="../images/covidlogo.png" type="image/x-icon">
+
+
+    <!-- --------------css file --------------- -->
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <!-- ------------javascript file ----------------- -->
+
+    <script defer src="../js/java.js"></script>
+
+    <!-- <script defer src="../js/global.js"></script> -->
+
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+
+
+
+
+
 </head>
-<body>
+
+<body class="light">
+
+    <!-- song -->
+    <!-- <embed src="../corana-song.mp3" loop="true" autostart="true" width="2" height="0"  volume="0.10" type="audio/mp3"></embed> -->
+
+    <!-- song -->
+
+
+
+    <div class="navbar">
+        <div class="left">
+            <img src="../images/covidlogo.png" alt="logo" class="covid_logo">
+            <span>Live Corona Meter </span>
+            <img src="../images/movingcovid.png" alt="corona animation" class="animation">
+        </div>
+
+    </div>
+
+
+    <div class="middle"> 
+      <img src="../images/bg2.jpg" class="responsive">
+      <button id="color" onclick="change()">Dark mode</button>
+      
+    </div>
     
+    <div class="total">
+
+        <!-- <span id="time">Time :</span> -->
+       
+
+        <p class="higher">Total Coronavirus Cases : </p>
+
+
+        <p class="higher">Total Deaths : </p>
+
+
+        <p class="lower">New Deaths :</p>
+
+
+
+    </div>
+
+
+    
+
+
+    <input type="text" id="myInput" placeholder=" Search Country " >
+
+    <button type="submit" id="mySubmit" value="Search" class="submit">Search</button>
+
+
+
+    
+    <!-- style="overflow-x:auto;" -->
+<div >
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Country</th>
+        <th scope="col">NewConfirmed</th>
+        <th scope="col">TotalConfirmed</th>
+        <th scope="col">NewDeaths</th>
+        <th scope="col">TotalDeaths</th>
+        <th scope="col">NewRecovered</th>
+        <th scope="col">TotalRecovered</th>
+        <th scope="col">Last Updated on</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+
+
+
+    </tbody>
+    
+  </table>
+
+  <div class="footer">
+    <div class="footer-section">
+
+        <h3>Get well soon Everyone ❤️💙</h3>
+
+    </div>
+</div >
+
+</div>
+
+
+
 </body>
+
 </html>

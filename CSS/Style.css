@@ -1,0 +1,498 @@
+body {
+    background-color: rgba(200, 190, 243, 0.84);
+    margin: 10px 20px;
+    /* min-height: 390rem; */
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    opacity: 0.7;
+
+}
+
+.left img {
+    position: absolute;
+    left: 18px;
+    opacity: 1;
+}
+
+.left {
+    height: 50px;
+    width: 100%;
+    border-radius: 14px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.left span {
+    position: absolute;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-style: oblique;
+    color: rgb(232, 13, 13);
+    font-weight: 549;
+    opacity: 1;
+}
+
+
+.animation {
+    height: 30px;
+    opacity: 1;
+    animation-name: corona;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes corona {
+    0% {
+        top: 0px;
+        left: 80px;
+    }
+
+    5% {
+        top: 10px;
+        left: 120px;
+    }
+
+    10% {
+        top: 0px;
+        left: 160px;
+    }
+
+    15% {
+        top: 10px;
+        left: 200px;
+    }
+
+    20% {
+        top: 10px;
+        left: 240px;
+    }
+
+    25% {
+        top: 0px;
+        left: 280px;
+    }
+
+    30% {
+        top: 10px;
+        left: 320px;
+    }
+
+    35% {
+        top: 0px;
+        left: 360px;
+    }
+
+    40% {
+        top: 10px;
+        left: 400px;
+    }
+
+    45% {
+        top: 0px;
+        left: 440px;
+    }
+
+    50% {
+        top: 10px;
+        left: 480px;
+    }
+
+    55% {
+        top: 0px;
+        left: 520px;
+    }
+
+    60% {
+        top: 10px;
+        left: 560px;
+    }
+
+    65% {
+        top: 0px;
+        left: 600px;
+    }
+
+    70% {
+        top: 10px;
+        left: 640px;
+    }
+
+    75% {
+        top: 0px;
+        left: 680px;
+    }
+
+    80% {
+        top: 10px;
+        left: 720px;
+    }
+
+    85% {
+        top: 0px;
+        left: 760px;
+    }
+
+    90% {
+        top: 10px;
+        left: 800px;
+    }
+
+    95% {
+        top: 0px;
+        left: 880px;
+    }
+
+    100% {
+        top: 10px;
+        left: 950px;
+    }
+}
+
+
+
+
+.covid_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    filter: invert(1%);
+}
+
+.middle {
+    /* height: 450px;
+    width: 100%; */
+    /* background: url(../images/bg2.jpg); */
+
+    /* background: url(https://source.unsplash.com/1600x900/?corona,mask,pandemic); */
+
+    /* background-size: cover;
+    background-position: center;
+    border-radius: 15px; */
+
+}
+
+#color {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+}
+
+.responsive {
+    width: 80%;
+    height: auto;
+    margin: 1px 140px;
+}
+
+.total p {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.total {
+    /* position: relative; */
+
+}
+
+
+#myInput {
+    height: 20px;
+    width: 300px;
+    padding: 6px;
+    position: relative;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+
+#mySubmit {
+    height: 31px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #efc0f8
+}
+
+#mySubmit:hover {
+    background-color: #e57bfa
+}
+
+
+
+/* 
+#time {
+    position: absolute;
+    right: 20px;
+} */
+
+.higher {
+    animation-name: total_case;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes total_case {
+    0% {
+        color: rgb(0, 0, 0);
+    }
+
+    25% {
+        color: rgb(241, 109, 109);
+    }
+
+    50% {
+        color: rgb(245, 90, 90);
+    }
+
+    100% {
+        color: rgb(243, 9, 9);
+    }
+}
+
+.lower {
+    animation-name: total_recover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes total_recover {
+    0% {
+        color: rgb(1, 61, 13);
+    }
+
+    25% {
+        color: rgb(107, 174, 133);
+    }
+
+    50% {
+        color: rgb(92, 161, 101);
+    }
+
+    100% {
+        color: rgb(18, 188, 41);
+    }
+}
+
+
+.footer-section {
+    background-color: rgba(17, 16, 16, 0.74);
+    /* color: aliceblue; */
+    height: 200px;
+    text-align: center;
+
+    display: grid;
+    /* margin: auto; */
+    align-items: center;
+
+margin: 0px;
+width: 100%;
+}
+
+.footer {
+    position: absolute;
+    /* top: 195rem;
+    left: 0;
+    right: 0; */
+    width: 100%;
+}
+
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 97%;
+    position: absolute;
+    top: 900px;
+    padding: 5px;
+    margin-top: 15px;
+    /* height: 100%; */
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(16, 15, 15);
+    border-collapse: collapse;
+}
+
+
+td,
+th {
+    border: 1px solid #020202;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    /* background-color: #e6caf3; */
+    background-color: #fbecfd;
+}
+
+tr:nth-child(odd) {
+    /* background-color: #e6caf3; */
+    background-color: #efc0f8;
+}
+
+
+
+
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+
+.light {
+    /* background-color: white; */
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.kk {
+    background-color: aqua;
+    height: 150px;
+    width: 500px;
+    margin: 20px;
+}
+
+
+@media only screen and (min-width : 1245px) {
+
+    .footer {
+        top: 495rem;
+    }
+
+}
+
+@media only screen and (min-width : 1236px) {
+
+    .footer {
+        top: 719rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 360px) {
+
+    .footer {
+        top: 730rem;
+    }
+
+    .footer-section {
+        width: 1015px;
+    }
+
+    body {
+        min-width: 56rem;
+    }
+
+    .navbar {
+        top: 30px;
+        margin-left: 55px;
+    }
+
+    .middle {
+        margin-top: 45px;
+    }
+
+
+    #color {
+        right: -618px;
+        top: 440px;
+    }
+
+    .total p {
+        position: relative;
+        left: 10%;
+    }
+
+    #mySubmit {
+        height: 35px;
+        width: 120px;
+        position: absolute;
+        top: 750px;
+        left: 350px;
+    }
+
+    #myInput {
+        height: 20px;
+        width: 300px;
+        padding: 6px;
+        position: absolute;
+      top: 750px;
+    }
+
+}
+
+@media only screen and (min-width : 379px) {
+
+    #color {
+        right: -600px;
+        top: 440px;
+    }
+
+}
+
+
+@media only screen and (min-width : 405px) {
+
+    #color {
+        right: -570px;
+        top: 440px;
+    }
+
+}
+
+@media only screen and (min-width : 438px) {
+
+    #color {
+        right: -540px;
+        top: 440px;
+    }
+
+}
+
+@media only screen and (min-width : 474px) {
+
+    #color {
+        right: -490px;
+        top: 440px;
+    }
+
+}
